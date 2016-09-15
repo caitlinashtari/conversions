@@ -1,0 +1,30 @@
+#output4 {
+  color: pink;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  display: none;
+}
+
+#output3 {
+  color: pink;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 10px;
+  display: none;
+}
+
+#output2 {
+  color: pink;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+#output1 {
+  color: pink;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 10px;
+  display: none;
+}

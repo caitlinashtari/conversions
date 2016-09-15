@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cooking</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+   <div class="container">
+     <h1>Cooking</h1>
+     <form id="poundsOunces">
+       <div class="form-group">
+         <label for="po1">Enter a number in pounds:</label>
+         <input id="po1" class="form-control" type="text">
+       </div>
+       <button type="submit" class="btn">Convert!</button>
+     </form>
+     <div id="output1">
+
+    </div>
+
+    <form id="ouncesPints">
+      <div class="form-group">
+        <label for="op1">Enter a number in ounces:</label>
+        <input id="op1" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Convert!</button>
+    </form>
+    <div id="output2">
+
+   </div>
+
+   <form id="poundCup">
+     <div class="form-group">
+       <label for="cup1">Enter a number in pounds:</label>
+       <input id="cup1" class="form-control" type="text">
+     </div>
+     <button type="submit" class="btn">Convert!</button>
+   </form>
+   <div id="output3">
+
+  </div>
+
+  <form id="gramsOunces">
+    <div class="form-group">
+      <label for="ounces1">Enter a number in ounces:</label>
+      <input id="ounces1" class="form-control" type="text">
+    </div>
+    <button type="submit" class="btn">Convert!</button>
+  </form>
+  <div id="output4">
+  </div>
+
+  <p><input type="text"> <span>focusin fire</span></p>
+  <p><input type="password"> <span>focusin fire</span></p>
+
+  <script>
+  $( "p" ).focusin(function() {
+    $( this ).find( "span" ).css( "display", "inline" ).fadeOut( 1000 );
+  });
+  </script>
+
+ </body>
+</html>
